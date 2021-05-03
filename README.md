@@ -1,0 +1,2 @@
+# SmellTheRoses
+This react application displays my qualifications and talents when it comes to developing. The brilliance in developing is being able to put your own flavor on the world, officially allowing others a look through your lenses. There are many different walks of life, and what better way to bridge the gap between them all. Third time is the charm they say, or better yet you never stop learning/growing.
