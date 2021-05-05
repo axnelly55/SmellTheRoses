@@ -2,11 +2,11 @@ import React from "react";
 import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 
 // projects
-import L_ReactToDoList from "../../assets/img/projects/React_ToDo_List.webp";
-import L_MernTipCalc from "../../assets/img/projects/mern_tip_calc.webp";
-import L_GetGitHubInfo from "../../assets/img/projects/get_github_info.webp";
-import L_SmartBrain from "../../assets/img/projects/brain.webp";
-import L_RoboFriends from "../../assets/img/projects/Robofriends.webp";
+import L_ReactToDoList from "../../assets/img/projects/fittracker.webp";
+import L_MernTipCalc from "../../assets/img/projects/burger.webp";
+import L_GetGitHubInfo from "../../assets/img/projects/weather-dashboard.webp";
+import L_SmartBrain from "../../assets/img/projects/budtracker.webp";
+import L_RoboFriends from "../../assets/img/projects/spacejam3.webp";
 import L_ProductHuntClone from "../../assets/img/projects/product_hunt_clone.webp";
 import L_PortfolioUsingDjango from "../../assets/img/projects/portfolioUsingDjango.webp";
 import Accordion from "react-bootstrap/Accordion";
@@ -37,13 +37,13 @@ const TimeLine = () => {
       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Timeline>
         <Events>
-        {/* Project: Todo List With MUI */}
+        {/* Project: Fittness-Tracke */}
         <ImageEvent
-            date="01/10/2020"
+            date="13/08/2020"
             className="text-center"
-            text="React ToDo App"
+            text="Fittness-Tracker"
             src={L_ReactToDoList}
-            alt="React ToDo App"
+            alt="Fittness-Tracker"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -59,12 +59,12 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is a Todo App created with React and Material UI that keeps a track of your Todos
+                        <strong>Description:</strong> This Fitness-Tracker project is an application that allows users the convenience of saving their workouts as well as their stats of each workout. They are able to compare their results after their sessions to see where they slacked and where they could improve.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Keeps track of your Todos</li>
-                          <li>Powered by React and Material UI</li>
+                          <li>Keeps track of your workouts</li>
+                          <li>Powered by Javascript, node.js, mongodb</li>
                           <li>Respoisive Design</li>
                         </ul>
                         <hr />
@@ -95,99 +95,12 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_REACT}
-                                alt="React"
+                                src={L_MONGODB}
+                                alt="MongoDB"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              React
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_MATERIALUI}
-                                alt="Material-UI"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Material-UI
-                            </span>
-                          </li>
-                          
-                        </ul>
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
-              </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
-                  href="https://akjha96.github.io/Todo-List-React/"
-                  target="_blank"
-                >
-                  SEE LIVE
-                </UrlButton>
-                <UrlButton
-                  href="https://github.com/akjha96/Todo-List-React"
-                  target="_blank"
-                >
-                  SOURCE CODE
-                </UrlButton>
-                <UrlButton
-                  href="https://www.linkedin.com/posts/anand-kumar-jha-745798a4_react-materialui-fun-activity-6716765686963826688-GIpZ"
-                  target="_blank"
-                >
-                  WATCH VIDEO
-                </UrlButton>
-              </div>
-            </div>
-          </ImageEvent>
-
-
-{/* Project: MERN Tip Calculator */}
-<ImageEvent
-            date="16/09/2020"
-            className="text-center"
-            text="MERN Tip Calculator"
-            src={L_MernTipCalc}
-            alt="MERN Tip Calculator"
-          >
-            <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
-                <Accordion>
-                  <Card>
-                    <Accordion.Toggle
-                      as={Card.Header}
-                      eventKey="0"
-                      className="p-2 text-center accordian-main"
-                    >
-                      PROJECT DETAILS
-                    </Accordion.Toggle>
-
-                    <Accordion.Collapse eventKey="0" className="text-left">
-                      <Card.Body>
-                        <strong>Description:</strong> This app calculates Tip for the amount entered and percentage of tip to be given.
-                        It uses MERN stack build to acomplish the same.
-                        <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>Enter amount upto your desire</li>
-                          <li>Real-time API calls with Backend features</li>
-                          <li>Styled with  Material-UI</li>
-                        </ul>
-                        <hr />
-                        <strong>Tech used:</strong>
-                        <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_REACT}
-                                alt="React"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              React
+                              MongoDB
                             </span>
                           </li>
                           <li>
@@ -201,39 +114,7 @@ const TimeLine = () => {
                               Node.js
                             </span>
                           </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_EXPRESS}
-                                alt="Express"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Express
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_MONGODB}
-                                alt="MongoDB"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              MongoDB
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_MATERIALUI}
-                                alt="Material-UI"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Material-UI
-                            </span>
-                          </li>
+                          
                         </ul>
                       </Card.Body>
                     </Accordion.Collapse>
@@ -242,13 +123,19 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://github.com/akjha96/MernTipCaculator-FrontEnd"
+                  href="..."
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/axnelly55/FitTracker"
                   target="_blank"
                 >
                   SOURCE CODE
                 </UrlButton>
                 <UrlButton
-                  href="https://www.linkedin.com/posts/anand-kumar-jha-745798a4_react-nodejs-expressjs-activity-6712281977107603456-oH6t"
+                  href="..."
                   target="_blank"
                 >
                   WATCH VIDEO
@@ -257,13 +144,14 @@ const TimeLine = () => {
             </div>
           </ImageEvent>
 
-          {/* Project: Get GitHub Info */}
-          <ImageEvent
-            date="19/07/2020"
+
+{/* Project: Food-Junkies */}
+<ImageEvent
+            date="16/09/2020"
             className="text-center"
-            text="Get GitHub Info"
-            src={L_GetGitHubInfo}
-            alt="Get GitHub Info"
+            text="Food-Junkies"
+            src={L_MernTipCalc}
+            alt="Food-Junkies"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -279,14 +167,119 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> An app that searches
-                        people on GitHub with non-private account and see all
-                        their details using GitHub API
+                        <strong>Description:</strong> This app allows all users to open themselves up 
+                        to a variety of Food selections across all cultures, raising awareness 
+                        to other lifestyles in the process.
+
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Search any Github profile</li>
+                          <li>Enter type of cuisine you desire</li>
+                          <li>Real-time API calls with Backend features</li>
+                          <li>Styled with Bootstrap, HTML, CSS, Diner API</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                        <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_BOOTSTRAP4}
+                                alt="Bootstrap 4"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Bootstrap 4
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_GIT}
+                                alt="Github API"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              GitHub API
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://github.com/axnelly55/burgerx2scr"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+                <UrlButton
+                  href="..."
+                  target="_blank"
+                >
+                  WATCH VIDEO
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
+          {/* Project: Weather-Dashboard */}
+          <ImageEvent
+            date="24/06/2020"
+            className="text-center"
+            text="Weather-Dashboard"
+            src={L_GetGitHubInfo}
+            alt="Weather-Dashboard"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> Allows users new to San Diego to check the 
+                        current and 5-days forecast at the same time. Going from there they 
+                        would be able to plan their days accordingly. 
+
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Search any cities weather for the week</li>
                           <li>Real-time API calls</li>
+                          <li>Responsive Design built with: Javascript, HTML, CSS, Open Weather API</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -316,23 +309,23 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_REACT}
-                                alt="React"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              React
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
                                 src={L_GIT}
                                 alt="Github API"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
                               GitHub API
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_BOOTSTRAP4}
+                                alt="Bootstrap 4"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Bootstrap 4
                             </span>
                           </li>
                         </ul>
@@ -343,19 +336,19 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://akjha96.github.io/getGithubInfo/"
+                  href="..."
                   target="_blank"
                 >
                   SEE LIVE
                 </UrlButton>
                 <UrlButton
-                  href="https://github.com/akjha96/getGithubInfo"
+                  href="https://github.com/axnelly55/The-Weather-Dashboard"
                   target="_blank"
                 >
                   SOURCE CODE
                 </UrlButton>
                 <UrlButton
-                  href="https://www.youtube.com/watch?v=K3h95l2YxmY&feature=youtu.be"
+                  href="..."
                   target="_blank"
                 >
                   WATCH VIDEO
@@ -364,13 +357,13 @@ const TimeLine = () => {
             </div>
           </ImageEvent>
 
-          {/* Project: Smart Brain */}
+          {/* Project: Budget-Tracker */}
           <ImageEvent
-            date="21/01/2020"
+            date="16/09/2020"
             className="text-center"
-            text="Smart Brain Face Detect app"
+            text="Budget-Tracker App"
             src={L_SmartBrain}
-            alt="Smart Brain Face Detect"
+            alt="Budget-Tracker"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -386,27 +379,32 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> An app that detects face
-                        in a picture.
+                        <strong>Description:</strong> This budget tracker app allows users to keep track of 
+                        their expenses. They enter a transation name, amount, then whether to add or 
+                        subtract funds. A list of their transaction history is shown as well as a 
+                        graph of their budget history. While this app works great online it can also
+                         be downloaded and used offline in case there is no internet connection. 
+                         Users can still input more transactions offline and when there is connection 
+                         again the app will sync up with IndexedDB and update their transactions list.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Register new user</li>
-                          <li>Signin exiting user</li>
-                          <li>Keep tracks of entries for each user</li>
+                          <li>Enter earnings as well as expenses</li>
+                          <li>Keeps track of transactions and savings</li>
+                          <li>This application is run with Node.js, Javascript, HTML, CSS, Mongodb</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
                         <ul>
-                          <li>
+                        <li>
                             <span className="p-2">
                               <Image
-                                src={L_REACT}
-                                alt="React"
+                                src={L_MONGODB}
+                                alt="MongoDB"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              React
+                              MongoDB
                             </span>
                           </li>
                           <li>
@@ -423,28 +421,39 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_EXPRESS}
-                                alt="Express"
+                                src={L_HTML5}
+                                alt="HTML 5"
                                 rounded
-                                className="image-style1 m-1"
+                                className="image-style m-1"
                               ></Image>{" "}
-                              Express
+                              HTML5
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_POSTGRESQL}
-                                alt="PostgreSQL"
+                                src={L_CSS3}
+                                alt="CSS 3"
                                 rounded
-                                className="image-style1 m-1"
+                                className="image-style m-1"
                               ></Image>{" "}
-                              PostgreSQL
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_BOOTSTRAP4}
+                                alt="Bootstrap 4"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Bootstrap 4
                             </span>
                           </li>
                         </ul>
                         <hr />
-                        <em>
+                        {/* <em>
                           <strong>SignUp/ Signin:</strong>
                           <br />
                           <br />
@@ -457,7 +466,7 @@ const TimeLine = () => {
                           email: demo@demo.com
                           <br />
                           password: demo
-                        </em>
+                        </em> */}
                       </Card.Body>
                     </Accordion.Collapse>
                   </Card>
@@ -465,19 +474,19 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://smart-face-detect-app.herokuapp.com/"
+                  href="..."
                   target="_blank"
                 >
                   SEE LIVE
                 </UrlButton>
                 <UrlButton
-                  href="https://github.com/akjha96/Smart_Brain"
+                  href="https://github.com/axnelly55/Budget-Tracker"
                   target="_blank"
                 >
                   SOURCE CODE
                 </UrlButton>
                 <UrlButton
-                  href="https://www.youtube.com/watch?v=ZZYSpi_blL0"
+                  href="..."
                   target="_blank"
                 >
                   WATCH VIDEO
@@ -486,14 +495,14 @@ const TimeLine = () => {
             </div>
           </ImageEvent>
 
-          {/* Project: RoboFriends */}
+          {/* Project: Space-Jam-3 */}
 
           <ImageEvent
             date="14/01/2020"
             className="text-center"
-            text="RoboFriends"
+            text="Space-Jam-3"
             src={L_RoboFriends}
-            alt="Robo Friends"
+            alt="Space-Jam-3"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -510,7 +519,7 @@ const TimeLine = () => {
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
                         <strong>Description:</strong> An app that allows to
-                        search through robots fetched in real-time with users.
+                        search through robots that could potentially save the world in the next space-jam movie, fetched in real-time with users.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
@@ -584,13 +593,13 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://akjha96.github.io/RoboFriends/"
+                  href="..."
                   target="_blank"
                 >
                   SEE LIVE
                 </UrlButton>
                 <UrlButton
-                  href="https://github.com/akjha96/RoboFriends"
+                  href="https://github.com/axnelly55/SpaceJam-3"
                   target="_blank"
                 >
                   SOURCE CODE
