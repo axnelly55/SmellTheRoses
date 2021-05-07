@@ -7,8 +7,7 @@ import L_MernTipCalc from "../../assets/img/projects/burger.webp";
 import L_GetGitHubInfo from "../../assets/img/projects/weather-dashboard.webp";
 import L_SmartBrain from "../../assets/img/projects/budtracker.webp";
 import L_RoboFriends from "../../assets/img/projects/spacejam3.webp";
-import L_ProductHuntClone from "../../assets/img/projects/product_hunt_clone.webp";
-import L_PortfolioUsingDjango from "../../assets/img/projects/portfolioUsingDjango.webp";
+import L_ProductHuntClone from "../../assets/img/projects/GOBcg.webp";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 
@@ -59,7 +58,10 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This Fitness-Tracker project is an application that allows users the convenience of saving their workouts as well as their stats of each workout. They are able to compare their results after their sessions to see where they slacked and where they could improve.
+                        <strong>Description:</strong> This Fitness-Tracker project is an application 
+                        that allows users the convenience of saving their workouts as well as their 
+                        stats of each workout. They are able to compare their results after their 
+                        sessions to see where they slacked and where they could improve.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
@@ -123,7 +125,7 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="..."
+                  href="https://vimeo.com/546269589"
                   target="_blank"
                 >
                   SEE LIVE
@@ -135,7 +137,7 @@ const TimeLine = () => {
                   SOURCE CODE
                 </UrlButton>
                 <UrlButton
-                  href="..."
+                  href="https://vimeo.com/546269589"
                   target="_blank"
                 >
                   WATCH VIDEO
@@ -149,9 +151,9 @@ const TimeLine = () => {
 <ImageEvent
             date="16/09/2020"
             className="text-center"
-            text="Food-Junkies"
+            text="Food-Junkies Project"
             src={L_MernTipCalc}
-            alt="Food-Junkies"
+            alt="Food-Junkies Project"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -233,17 +235,12 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://github.com/axnelly55/burgerx2scr"
+                  href="https://github.com/Alais555/project1"
                   target="_blank"
                 >
                   SOURCE CODE
                 </UrlButton>
-                <UrlButton
-                  href="..."
-                  target="_blank"
-                >
-                  WATCH VIDEO
-                </UrlButton>
+                
               </div>
             </div>
           </ImageEvent>
@@ -336,7 +333,7 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="..."
+                  href="https://vimeo.com/546296918"
                   target="_blank"
                 >
                   SEE LIVE
@@ -348,7 +345,7 @@ const TimeLine = () => {
                   SOURCE CODE
                 </UrlButton>
                 <UrlButton
-                  href="..."
+                  href="https://vimeo.com/546296918"
                   target="_blank"
                 >
                   WATCH VIDEO
@@ -380,7 +377,7 @@ const TimeLine = () => {
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
                         <strong>Description:</strong> This budget tracker app allows users to keep track of 
-                        their expenses. They enter a transation name, amount, then whether to add or 
+                        their expenses. They enter a transaction name, amount, then whether to add or 
                         subtract funds. A list of their transaction history is shown as well as a 
                         graph of their budget history. While this app works great online it can also
                          be downloaded and used offline in case there is no internet connection. 
@@ -474,7 +471,7 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="..."
+                  href="https://vimeo.com/546305379"
                   target="_blank"
                 >
                   SEE LIVE
@@ -486,7 +483,7 @@ const TimeLine = () => {
                   SOURCE CODE
                 </UrlButton>
                 <UrlButton
-                  href="..."
+                  href="https://vimeo.com/546305379"
                   target="_blank"
                 >
                   WATCH VIDEO
@@ -498,7 +495,7 @@ const TimeLine = () => {
           {/* Project: Space-Jam-3 */}
 
           <ImageEvent
-            date="14/01/2020"
+            date="3/05/2021"
             className="text-center"
             text="Space-Jam-3"
             src={L_RoboFriends}
@@ -519,7 +516,8 @@ const TimeLine = () => {
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
                         <strong>Description:</strong> An app that allows to
-                        search through robots that could potentially save the world in the next space-jam movie, fetched in real-time with users.
+                        search through robots that could potentially save the world in 
+                        the next space-jam movie, fetched in real-time with users.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
@@ -593,7 +591,7 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="..."
+                  href="https://vimeo.com/546261772"
                   target="_blank"
                 >
                   SEE LIVE
@@ -608,14 +606,14 @@ const TimeLine = () => {
             </div>
           </ImageEvent>
 
-          {/* Project: Product_Hunt_Clone */}
+          {/* Project: The GodFather Of Bodtbuilding's Website */}
 
           <ImageEvent
-            date="15/12/2019"
+            date="10/02/2021"
             className="text-center"
-            text="Product Hunt Clone"
+            text="The GOB Site"
             src={L_ProductHuntClone}
-            alt="Product Hunt Clone"
+            alt="The GOB Site"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -631,17 +629,21 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This website is a clone of
-                        Product Hunt built using Django.
+                        <strong>Description:</strong> This website is a the site for the world infamous 
+                        Charles Glass. GOB trains high end celebrities, to high end athletes, 
+                        to normal individuals looking to embark on a new lifestyle transformation. 
+                        From gaining access to the Godfather himself, to inquiring information via 
+                        training program ebooks the resources available to users through this site are endless.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
                           <li>Register as new user</li>
                           <li>Signin as existing user</li>
-                          <li>Raise a Product for people to see and Vote</li>
-                          <li>Delete a product</li>
-                          <li>Like and Dislike a product</li>
-                          <li>Fully funtional Administration panel</li>
+                          <li>Gain access to nutriotional and workout programs</li>
+                          <li>Purchase products</li>
+                          <li>Acquire info on the GOB himself</li>
+                          <li>Fully optimized and scalable.</li>
+                          <li>Wordpress, divi, elementor, woocommerce, ecommerce</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -668,7 +670,7 @@ const TimeLine = () => {
                               CSS3
                             </span>
                           </li>
-                          <li>
+                          {/* <li>
                             <span className="p-2">
                               <Image
                                 src={L_BOOTSTRAP4}
@@ -678,29 +680,7 @@ const TimeLine = () => {
                               ></Image>{" "}
                               Bootstrap 4
                             </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_DJANGO}
-                                alt="Django"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              Django
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_POSTGRESQL}
-                                alt="PostgreSQL"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              PostgreSQL
-                            </span>
-                          </li>
+                          </li> */}
                         </ul>
                       </Card.Body>
                     </Accordion.Collapse>
@@ -709,145 +689,17 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://github.com/akjha96/product_hunt_clone"
+                  href="https://vimeo.com/545850150"
                   target="_blank"
                 >
-                  SOURCE CODE
+                  SEE LIVE
                 </UrlButton>
               </div>
             </div>
           </ImageEvent>
 
-          {/* Project: Portfolio using Django */}
-          <ImageEvent
-            date="07/12/2019"
-            className="text-center"
-            text="Portfolio using Django"
-            src={L_PortfolioUsingDjango}
-            alt="Portfolio using Django"
-          >
-            <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
-                <Accordion>
-                  <Card>
-                    <Accordion.Toggle
-                      as={Card.Header}
-                      eventKey="0"
-                      className="p-2 text-center accordian-main"
-                    >
-                      PROJECT DETAILS
-                    </Accordion.Toggle>
-
-                    <Accordion.Collapse eventKey="0" className="text-left">
-                      <Card.Body>
-                        <strong>Description:</strong> This is my first portfolio
-                        website built using Django.
-                        <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>Send emails</li>
-                          <li>View my projects</li>
-                          <li>Write a blog</li>
-                          <li>
-                            Hosted using Digital ocean under www.akjfun.com
-                          </li>
-                          <li>Fully funtional Administration panel</li>
-                        </ul>
-                        <hr />
-                        <strong>Tech used:</strong>
-                        <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_HTML5}
-                                alt="HTML 5"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              HTML5
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_CSS3}
-                                alt="CSS 3"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              CSS3
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_BOOTSTRAP4}
-                                alt="Bootstrap 4"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              Bootstrap 4
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_DJANGO}
-                                alt="Django"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              Django
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_POSTGRESQL}
-                                alt="PostgreSQL"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              PostgreSQL
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_DIGITAL_OCEAN}
-                                alt="Digital Ocean"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              Digital-Ocean
-                            </span>
-                          </li>
-                        </ul>
-                        <hr />
-                        <em>
-                          <strong>View Demo Video:</strong>
-                          <br />
-                          <br />
-                          If you are reading this, that means I have updated my
-                          Portfolio website to recent one.
-                          <br />
-                          You can still see a video of my old portfolio by
-                          clicking on the button below.
-                          <br />
-                          <br />
-                        </em>
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
-              </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton href="https://youtu.be/PCwEuW4OmWA" target="_blank">
-                  WATCH VIDEO
-                </UrlButton>
-              </div>
-            </div>
-          </ImageEvent>
+          
+          
         </Events>
       </Timeline>
     </div>
